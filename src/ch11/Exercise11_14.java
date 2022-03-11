@@ -77,6 +77,7 @@ public class Exercise11_14 {
         }
     }
 
+
     static void displayRecord() {
         int koreanTotal = 0;
         int englishTotal = 0;
