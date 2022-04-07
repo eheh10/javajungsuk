@@ -1,4 +1,4 @@
-package ch13;
+package ch13.exercise;
 
 import java.util.Scanner;
 import java.util.Vector;

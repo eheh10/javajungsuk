@@ -1,4 +1,4 @@
-package ch11;
+package ch11.exercise;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package ch13;
+package ch13.exercise;
 
 class Exercise13_7 {
     static boolean stopped = false;

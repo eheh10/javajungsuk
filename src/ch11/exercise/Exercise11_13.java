@@ -1,4 +1,4 @@
-package ch11;
+package ch11.exercise;
 
 import java.util.Comparator;
 import java.util.TreeMap;
