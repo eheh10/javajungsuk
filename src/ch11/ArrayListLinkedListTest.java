@@ -8,7 +8,7 @@ public class ArrayListLinkedListTest {
       public static void main(String args[]) {
             // ArrayList - LinkedList 성능차이 비교
 
-            ArrayList al = new ArrayList(2000000);
+            ArrayList al = new ArrayList(2_000_000);
             LinkedList ll = new LinkedList();
 
             System.out.println("= 순차적으로 추가하기 =");
@@ -30,7 +30,7 @@ public class ArrayListLinkedListTest {
 
       public static long add1(List list) {
             long start = System.currentTimeMillis();
-            for(int i=0; i<1000000;i++){
+            for(int i=0; i<1_000_000;i++){
                   list.add(i+"");
             }
             long end = System.currentTimeMillis();
@@ -39,7 +39,7 @@ public class ArrayListLinkedListTest {
 
       public static long add2(List list) {
             long start = System.currentTimeMillis();
-            for(int i=0; i<10000;i++){
+            for(int i=0; i<10_000;i++){
                   list.add(500, "X");
             }
             long end = System.currentTimeMillis();
@@ -57,7 +57,7 @@ public class ArrayListLinkedListTest {
 
       public static long remove2(List list) {
             long start = System.currentTimeMillis();
-            for(int i=0; i<10000;i++){
+            for(int i=0; i<10_000;i++){
                   list.remove(i);
             }
             long end = System.currentTimeMillis();
